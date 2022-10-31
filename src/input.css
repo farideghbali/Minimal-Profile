@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.wrapper {
+    background-image: url("../img/background.jpg");
+}
+
+@layer components {
+    .social {
+        @apply h-6 fill-current text-gray-600 dark:text-white dark:opacity-75 dark:hover:text-green-700 hover:text-green-700
+    }
+}
